@@ -50,6 +50,6 @@ if time_to_insert:
 st.stop()
 
 #new section to display smoothiefroot data
-import requests
-smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothiefroot_response.json())
+#import requests
+#smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+#st.text(smoothiefroot_response.json())
