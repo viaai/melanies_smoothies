@@ -50,6 +50,7 @@ if time_to_insert:
 st.stop()
 
 #new section to display smoothiefroot data
-#import requests
-#smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+import requests
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
 #st.text(smoothiefroot_response.json())
+sf_df = st.dataframe(data=smothiefroot_response.json(), use_container_width=True)
